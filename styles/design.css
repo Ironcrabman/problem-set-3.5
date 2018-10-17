@@ -1,5 +1,54 @@
-body {background-color:Bisque;}
+body {background-color: Bisque;}
 
-h1,h2,h3,h4,h5,h6 {color:coral;}
+h2,h3,h4,h5,h6 {
+                color: coral;
+                font-size: 30px;
+                font-family:Georgia, serif;
+              }
 
-p {font-family:Bookman, serif;}
+h1 {
+  font-style: normal;
+  color: coral;
+  font-size: 40px
+  font-family:Georgia, serif;
+  text-decoration: none;
+}
+
+p,ol,ul {
+  font-family:Georgia, serif;
+  margin: auto;
+}
+
+#titlecheese {
+              border: 10px;
+              border-color: goldenrod;
+              border-style: ridge;
+              border-radius:1000px;
+              display:block;
+              margin-left: auto;
+              margin-right: auto;
+              width:500px;
+              height:500px;
+            }
+
+.lists + .overview{color:Black}
+
+#cheesevat{
+  border: 10px;
+          border-color:goldenrod;
+          border-style: ridge;
+          width: 600px;
+          height: 300px;
+        }
+
+#tpic {
+        Height: 200px;
+        width: 200px;
+}
+
+#food {height:300px;
+    width:600px;}
+
+.hover:hover{
+  color:Darkgreen;
+}
