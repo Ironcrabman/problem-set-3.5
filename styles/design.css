@@ -5,7 +5,6 @@ h2,h3,h4,h5,h6 {
                 font-size: 30px;
                 font-family:Georgia, serif;
               }
-
 h1 {
   font-style: normal;
   color: coral;
@@ -44,11 +43,29 @@ p,ol,ul {
 #tpic {
         Height: 200px;
         width: 200px;
+        border-color: goldenrod;
+        border-style: solid;
+        border-width: 2px;
 }
 
 #food {height:300px;
-    width:600px;}
+    width:600px;
+    border-color: goldenrod;
+    border-style: ridge;
+    border-width: 10px;
+  }
 
 .hover:hover{
   color:Darkgreen;
 }
+* {color:black;}
+
+#hover2:hover
+{color:blue}
+
+#hover3:hover
+{color:navy;}
+
+a[href="https://www.ucvts.tec.nj.us/domain/16#calendar4326/20181009/month"] {font-style: italic;}
+a[href="mailto:realmail.gmil"] {font-style: italic;}
+a[href="https://www.youtube.com/watch?v=FHmXAb3G0ek"] {font-style: italic;}
